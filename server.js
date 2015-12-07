@@ -64,7 +64,7 @@ app.get('/:segment', function(req, res) {
 		// object of the user
 		data.forEach(function(element, index, array) {
 			res.json(element.url);
-		}); 
+		});
 	});
 });
 
